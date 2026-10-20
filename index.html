@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TecniGuía Escolar | Eustorgio Colmenares Baptista</title>
+  <link rel="icon" type="image/jpg" href="img/logo_TecniGuia.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="topbar">
+    <div class="container topbar-content">
+      <span class="topbar-brand"><img src="img/logo_escuela.png" alt="Escudo" class="topbar-logo" />Institución
+        Educativa Eustorgio Colmenares Baptista</span>
+      <span>Cúcuta, Norte de Santander</span>
+    </div>
+  </div>
+
+  <header class="header">
+    <nav class="container navbar">
+      <a href="#inicio" class="brand">
+        <img src="img/logo_TecniGuia.jpg" alt="Logo TecniGuía Escolar" />
+        <div>
+          <strong>TecniGuía Escolar</strong>
+          <small>Conoce, elige y crece</small>
+
+        </div>
+      </a>
+
+      <!-- Menú hamburguesa (solo CSS): el checkbox guarda si el menú está abierto o cerrado -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="menu-boton" aria-label="Abrir o cerrar menú">&#9776;</label>
+
+      <div class="menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#institucion">Institución</a>
+        <a href="#sena">SENA</a>
+        <a href="#tecnicas">Técnicas</a>
+        <a href="#orientacion">Orientación</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <!-- Carrusel de fondos: solo CSS. fondo1 se repite al final para que el ciclo no dé saltos -->
+      <div class="hero-slider" aria-hidden="true">
+        <div class="hero-track">
+          <img src="img/fondo1.jpg" alt="" />
+          <img src="img/fondo2.jpg" alt="" />
+          <img src="img/fondo3.jpg" alt="" />
+          <img src="img/fondo1.jpg" alt="" />
+        </div>
+      </div>
+      <div class="hero-overlay">
+        <div class="container hero-content">
+          <p class="eyebrow">Programa de articulación SENA - MEN</p>
+          <h1>Bienvenidos a TecniGuía Escolar</h1>
+          <p>
+            Página informativa creada para que los estudiantes de octavo y noveno conozcan las técnicas ofrecidas por la
+            institución y puedan elegir con mayor claridad su camino académico.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#tecnicas">Ver técnicas</a>
+            <a class="btn secondary" href="#orientacion">Recibir orientación</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="notice-area">
+      <div class="container notice-grid">
+        <article class="notice main-notice">
+          <h2>¡Atención comunidad educativa ecolbista!</h2>
+          <p>
+            En este espacio encontrarás información clara, organizada y sencilla sobre la oferta técnica del colegio.
+          </p>
+        </article>
+        <article class="notice">
+          <h3>Objetivo</h3>
+          <p>Facilitar la orientación vocacional de los estudiantes mediante una página web informativa.</p>
+        </article>
+        <article class="notice">
+          <h3>Dirigido a</h3>
+          <p>Estudiantes de grados octavo y noveno que desean conocer mejor cada técnica.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="institucion" class="section institution">
+      <div class="container">
+        <div>
+          <p class="eyebrow">Nuestra institución</p>
+          <div class="institution-heading">
+            <img src="img/logo_escuela.png" alt="Escudo del Colegio Eustorgio Colmenares Baptista"
+              class="institution-logo" />
+            <h2>Institución Educativa Eustorgio Colmenares Baptista</h2>
+          </div>
+        </div>
+
+        <div class="mision-vision-grid">
+          <article class="mv-card">
+            <h3>Misión</h3>
+            <p>
+              La Institución Educativa Colegio Eustorgio Colmenares Baptista de San José de Cúcuta ofrece una educación
+              de calidad en los niveles de Preescolar, Básica Primaria, Básica Secundaria y Media Técnica, que permite a
+              sus EDUCANDOS, ser competentes, autónomos, responsables de su formación activa, en una cultura de
+              convivencia pacífica, comprometidos con la comunidad y su entorno.
+            </p>
+          </article>
+          <article class="mv-card">
+            <h3>Visión</h3>
+            <p>
+              La Institución Educativa Colegio Eustorgio Colmenares Baptista de San José de Cúcuta "Proyectada hacia el
+              2020, seguirá ofreciendo una educación técnica de calidad para sus educandos, que los posibiliten en forma
+              competente en la adquisición y el desarrollo de sus conocimientos, habilidades y valores para su progreso
+              individual, en el campo social y en el trabajo productivo como fundamento de su proyecto de vida".
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="sena" class="section sena-section">
+      <div class="container">
+        <div>
+          <p class="eyebrow">Nuestro aliado estratégico</p>
+          <div class="institution-heading">
+            <img src="img/logo_sena.png" alt="Logo del SENA" class="institution-logo" />
+            <h2>Servicio Nacional de Aprendizaje – SENA</h2>
+          </div>
+        </div>
+
+        <div class="mision-vision-grid">
+          <article class="mv-card">
+            <h3>Misión</h3>
+            <p>
+              El SENA está encargado de cumplir la función que le corresponde al Estado de invertir en el desarrollo
+              social y técnico de los trabajadores colombianos, ofreciendo y ejecutando la formación profesional
+              integral, para la incorporación y el desarrollo de las personas en actividades productivas que contribuyan
+              al desarrollo social, económico y tecnológico del país (Ley 119/1994).
+            </p>
+          </article>
+          <article class="mv-card">
+            <h3>Visión</h3>
+            <p>
+              Para el año 2026, el Servicio Nacional de Aprendizaje - SENA estará a la vanguardia de la cualificación
+              del talento humano, tanto a nivel nacional como internacional. Esto se logrará a través de la formación
+              profesional integral, el empleo, el emprendimiento y el reconocimiento de aprendizajes previos. Nuestro
+              objetivo es generar valor público y fortalecer la economía campesina, popular, verde y digital, siempre
+              con un enfoque diferencial orientado a la construcción del cambio, la transformación productiva, la
+              soberanía alimentaria y la consolidación de una paz total, materializando así la autonomía territorial, y
+              promoviendo la justicia social, ambiental y económica.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="tecnicas" class="section light-section">
+      <div class="container">
+        <div class="section-title">
+          <p class="eyebrow">Oferta técnica</p>
+          <h2>Conoce las 6 técnicas del colegio</h2>
+          <p>Lee cada opción, revisa qué se aprende y compárala con tus gustos personales.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card tema-software reveal">
+            <div class="card-media">
+              <img src="img/softwareperfilseccion.jpg" alt="Imagen de la técnica Desarrollo de Software" loading="lazy" />
+            </div>
+            <div class="card-body">
+              <span class="badge">Tecnología</span>
+              <h3>Desarrollo de Software</h3>
+              <p>Aprendes programación, páginas web, aplicaciones, bases de datos y solución de problemas usando
+                tecnología.</p>
+              <a href="desarrollo_software.html">Más información</a>
+            </div>
+          </article>
+
+          <article class="card tema-asistencia reveal">
+            <div class="card-media">
+              <img src="img/asistenciadmperfilseccion.jpg" alt="Imagen de la técnica Asistencia Administrativa" loading="lazy" />
+            </div>
+            <div class="card-body">
+              <span class="badge">Administración</span>
+              <h3>Asistencia Administrativa</h3>
+              <p>Aprendes redacción de documentos, archivo, atención al usuario, organización de reuniones y
+                herramientas ofimáticas.</p>
+              <a href="asistencia_administrativa.html">Más información</a>
+            </div>
+          </article>
+
+          <article class="card tema-rrhh reveal">
+            <div class="card-media">
+              <img src="img/recursoshumanosperfilseccion.jpg" alt="Imagen de la técnica Recursos Humanos" loading="lazy" />
+            </div>
+            <div class="card-body">
+              <span class="badge">Gestión humana</span>
+              <h3>Recursos Humanos</h3>
+              <p>Aprendes apoyo en contratación, hojas de vida, asistencia, bienestar laboral y atención al personal.
+              </p>
+              <a href="recursos_humanos.html">Más información</a>
+            </div>
+          </article>
+
+          <article class="card tema-contabilidad reveal">
+            <div class="card-media">
+              <img src="img/contabilidadperfilSeccion.jpg" alt="Imagen de la técnica Contabilización de Operaciones" loading="lazy" />
+            </div>
+            <div class="card-body">
+              <span class="badge">Contabilidad</span>
+              <h3>Contabilización de Operaciones</h3>
+              <p>Aprendes a registrar ingresos y gastos, realizar facturas, organizar información financiera y manejar
+                procesos contables.</p>
+              <a href="contabilidad.html">Más información</a>
+            </div>
+          </article>
+
+          <article class="card tema-sistemas reveal">
+            <div class="card-media">
+              <img src="img/sistemasperfilSEccion.jpg" alt="Imagen de la técnica Sistemas Teleinformáticos" loading="lazy" />
+            </div>
+            <div class="card-body">
+              <span class="badge">Redes</span>
+              <h3>Sistemas Teleinformáticos</h3>
+              <p>Aprendes sobre computadores, redes, internet, soporte técnico, sistemas operativos y
+                telecomunicaciones.</p>
+              <a href="sistemas.html">Más información</a>
+            </div>
+          </article>
+
+          <article class="card tema-turismo reveal">
+            <div class="card-media">
+              <img src="img/turisticaperfilseccion.jpg" alt="Imagen de la técnica Animación Turística" loading="lazy" />
+            </div>
+            <div class="card-body">
+              <span class="badge">Turismo</span>
+              <h3>Animación Turística</h3>
+              <p>Aprendes recreación, eventos, atención a visitantes, promoción turística, liderazgo y comunicación.</p>
+              <a href="animacion_turistica.html">Más información</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="orientacion" class="section">
+      <div class="container">
+        <div class="section-title">
+          <p class="eyebrow">Orientación vocacional</p>
+          <h2>¿Cómo elegir una técnica?</h2>
+        </div>
+
+        <div class="steps">
+          <article>
+            <span>1</span>
+            <h3>Identifica tus gustos</h3>
+            <p>Piensa si te gusta más la tecnología, la administración, la contabilidad, las redes, el turismo o el
+              trabajo con personas.</p>
+          </article>
+          <article>
+            <span>2</span>
+            <h3>Compara las opciones</h3>
+            <p>Revisa qué se aprende en cada técnica y cuál se relaciona más con tus habilidades.</p>
+          </article>
+          <article>
+            <span>3</span>
+            <h3>Pregunta antes de decidir</h3>
+            <p>Habla con docentes, estudiantes antiguos o coordinación para tomar una decisión más segura.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact-section">
+      <div class="container contact-box">
+        <div>
+          <p class="eyebrow">Información de contacto</p>
+          <h2>¿Necesitas más información?</h2>
+          <p>Acércate a la institución o solicita apoyo para conocer mejor las técnicas disponibles.</p>
+        </div>
+        <div class="contact-data">
+          <p><strong>Teléfono:</strong> (+57) 5 876438</p>
+          <p><strong>Correo:</strong> contacto@colecolba.edu.co</p>
+          <p><strong>Dirección:</strong> Av. 6 No. 16-43, Barrio El Salado, Cúcuta</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 TecniGuía Escolar</p>
+      <p>Proyecto Técnico en Desarrollo de Software</p>
+    </div>
+  </footer>
+</body>
+
+</html>
